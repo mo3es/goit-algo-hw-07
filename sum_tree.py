@@ -13,7 +13,7 @@ def get_sum(root):
     
     right_sum = get_sum(root.right)
     total_sum = current_key + left_sum + right_sum
-    print(f"Current node: {current_key}, Left sum: {left_sum}, Right sum: {right_sum}, Total for subtree: {total_sum}")
+    #print(f"Current node: {current_key}, Left sum: {left_sum}, Right sum: {right_sum}, Total for subtree: {total_sum}") - використовувалось для дебагу суми
 
     return total_sum
 
